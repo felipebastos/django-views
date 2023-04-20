@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-views"
+version = "0.1.0"
+description = "Exercício de Views do Django"
+authors = ["Felipe Bastos Nunes <felipebastos@ifce.edu.br>"]
+license = "GPL-3.0"
+readme = "README.md"
+packages = [{include = "djangoviews"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
